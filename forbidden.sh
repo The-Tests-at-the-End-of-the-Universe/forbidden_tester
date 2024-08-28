@@ -31,7 +31,7 @@ echo -e "file does not exist"
 exit 1
 fi
 
-if [ -f $config ];
+if [[ -f $config ]];
 then
 :
 else 
